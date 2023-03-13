@@ -1,10 +1,12 @@
 import { Component } from "react";
 
 export default class DrugaKompa extends Component {
-  render() {
+  render(props) {
     return (
       <div>
-        <h2>Ovo je druga komponenta!</h2>
+        <p>
+          Korisnik {this.props.ime} ima {this.props.godine} godina!
+        </p>
       </div>
     );
   }

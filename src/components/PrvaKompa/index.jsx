@@ -1,7 +1,9 @@
-const PrvaKompa = () => {
+const PrvaKompa = ({ ime, godine }) => {
   return (
     <div>
-      <h2>Ovo je prva komponenta!</h2>
+      <p>
+        Korisnik {ime} ima {godine} godina!
+      </p>
     </div>
   );
 };
